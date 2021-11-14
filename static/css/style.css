@@ -1,0 +1,7 @@
+body{
+	font-family: 'proxima-nova', sans-serif;
+}
+i,p,hr,a{
+    color: rgb(104,107,120);
+    margin: 0;
+}

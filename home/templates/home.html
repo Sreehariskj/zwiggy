@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include 'header.html' %}
+      
+<div class="container">
+<div class="row">
+    <img class="img-fluid p-3" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/rng/md/carousel/production/cx2idqwigzpluym2cmfc">
+</div>
+<div class="heading py-4">
+  <h4 class="mb-0"><i class="fas fa-utensils "></i> All Restaurants Nearby</h4>
+  <p>Discover unique taste near you</p>
+</div>
+<div class="row">
+{% for hotel in hotels %}
+<div class="col-md-12">
+<div class="card d-flex flex-row w-100 my-1" >
+  <img class="card-img-top" src="{{hotel.image}}" alt="Card image cap" style="width:90px">
+  <div class="card-body">
+    <h6 class="card-title">{{hotel.name}}</h6>
+    <p class="card-text">{{hotel.title}}</p>
+    <p class="card-text mt-1"><i class="far fa-star"></i> {{hotel.star}}    <span class="mx-3">  ₹ {{hotel.costOfTwo}}</span></p>
+  </div>
+</div>
+</div>
+{% endfor %}
+</div>
+</div>
+<br>
+<div class="mt-5">
+{% include 'footer.html' %}
+</div>
+{% endblock %}
