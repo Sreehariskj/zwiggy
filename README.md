@@ -1,8 +1,8 @@
 # Master Django Project
-  zwiggy app link :- https://zwiggy1.herokuapp.com/home
+  ZWIGGY APP LINK :- https://zwiggy1.herokuapp.com/home
 
 ## Features
-* Responsive clone swiggy app UI
+* Responsive Swiggy clone UI
 * Scrape data from swiggy app
 * Custom User model
-* include admin,signup,login,home and profile page
+* Include admin,signup,login,home and profile page
