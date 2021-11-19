@@ -1,4 +1,4 @@
-# Master Django Project
+# Self-Taught Django Project
  ##### ZWIGGY APP LINK :- https://zwiggy1.herokuapp.com/home
 
 ## Features
